@@ -1,0 +1,16 @@
+.cajaTexto {
+  font-size: 40px;
+  padding: 30px;
+  display:flex;
+  align-items: center;
+  text-align: center;
+  visibility: hidden;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  border-radius: 5px;
+  padding: 15px;
+}
