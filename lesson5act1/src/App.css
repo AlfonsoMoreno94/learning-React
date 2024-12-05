@@ -1,5 +1,4 @@
 .tarjeta {
-  width: 250px;
   border: 1px solid black;
   border-radius: 5px;
   margin: 15px;
@@ -14,7 +13,8 @@ img {
 
 .cajaCentral {
   display: grid;
-  grid-template-columns: repeat(2, 1fr)
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 10px;
 }
 
 body{
