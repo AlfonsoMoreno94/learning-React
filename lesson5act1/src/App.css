@@ -1,0 +1,22 @@
+.tarjeta {
+  width: 250px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 15px;
+  text-align: center;
+  padding: 10px;
+}
+
+img {
+  width: 100%;
+  margin-top: 5px;
+}
+
+.cajaCentral {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr)
+}
+
+body{
+  margin: 20px;;
+}
