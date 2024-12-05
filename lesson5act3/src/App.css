@@ -1,0 +1,33 @@
+.tarjeta {
+  width: 100px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 15px;
+  text-align: center;
+  padding: 10px;
+  display: flex;
+}
+
+img {
+  width: 100%;
+  margin-top: 5px;
+}
+
+.cajaCentral {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr)
+}
+
+body{
+  margin: 20px;;
+}
+
+.espacioBoton {
+  display: flex;
+  align-items: center;
+}
+
+button {
+  width: 75px;
+  height: 50%;
+}
