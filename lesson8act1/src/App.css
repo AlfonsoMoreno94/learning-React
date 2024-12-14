@@ -1,0 +1,48 @@
+.cajaInicio {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+  padding: 20px;
+}
+
+.rey {
+  border: 1px solid black;
+  padding: 20px;
+  text-align: center;
+  background-color: #f0f0f0;
+}
+
+img {
+  width: 100%;
+}
+
+h1 {
+  width: 90%;
+}
+
+nav {
+  margin: 5px;
+  padding: 5px;
+}
+
+.navButton {
+  padding: 10px;
+  background-color: blue;
+  text-decoration: none;
+  color: white;
+  border: 1px solid black;
+}
+
+.cajaRey {
+  display: block;
+  text-align: center;
+}
+
+.imgRey {
+  width: 300px;
+}
+
+.error {
+  font-size: 50px;
+  text-align: center;
+}
